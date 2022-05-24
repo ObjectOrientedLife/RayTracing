@@ -25,8 +25,8 @@ int SAMPLE_COUNT;
 const int SCENE0_SAMPLE_COUNT = 20;
 const int SCENE1_SAMPLE_COUNT = 120;
 const float F = 13.0f; // Focal length
-const int W = 600; // Image width
-const int H = 450; // Image height
+const int W = 200; // Image width
+const int H = 150; // Image height
 const float COEF = 7.0f / H; // Pixel size in the world coordinate
 const int MAX_DEPTH = 4; // MAX_DEPTH == 1 -> Raycast
 const float AIR_FACTOR = 1.0f;
