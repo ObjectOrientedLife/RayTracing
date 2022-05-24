@@ -1,6 +1,6 @@
 # Ray Tracing
 
-This is a simple Whitted ray tracing implemented in C++. About the Whitted ray tracing, please refer to https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/ray-tracing-rendering-technique-overview.
+This is a simple Whitted ray tracing implemented in C++. About the Whitted ray tracing in detail, please refer to https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/ray-tracing-rendering-technique-overview.
 
 ## Features
 - Ray-tracing polygons and spheres
@@ -54,7 +54,3 @@ The implementation is modularized into four major parts; `main`, `Scene`, `Shape
 
 - Scene 1  
 ![Scene1](https://user-images.githubusercontent.com/36808324/170076865-32a4ff2d-7f61-47c6-9934-1b6ef5adfc0a.png)
-
-
-## License
-MIT
