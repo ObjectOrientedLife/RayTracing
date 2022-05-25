@@ -1,6 +1,6 @@
 # Ray Tracing
 
-This is a simple Whitted ray tracing implemented in C++. About the Whitted ray tracing in detail, please refer to https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/ray-tracing-rendering-technique-overview.
+This is a simple Whitted ray tracing implemented in C++. About the Whitted ray tracing in detail, please refer to [^1].
 
 ## Features
 - Ray-tracing polygons and spheres
@@ -44,7 +44,7 @@ The implementation is modularized into four major parts; `main`, `Scene`, `Shape
 
 - The codes of `Light.h` and `Light.cpp` implements the `Light` class that defines a single light entity. The position, aiming target, color, attenuation by distance, the parallelism of rays, and area size, of a lighting unit, are declared as members of the `Light`.
 
-`bmpLib.h` and `bmpLib.cpp` implements functions that read and write a .bmp image file. The code is from ProjectPhysX's one in  https://stackoverflow.com/questions/36288421/c-create-png-bitmap-from-array-of-numbers/58395323 and was slightly modified.
+`bmpLib.h` and `bmpLib.cpp` implements functions that read and write a .bmp image file. The code is from ProjectPhysX's one in [^2] and was slightly modified.
 
 `objImporter.h` and `objImporter.cpp` composes a .obj file importer and were implemented by myself. The importer reads a .obj file in a given path, then returns the polygons as a vector of faces. Be noticed that it can only parse triangulated .obj files.
 
@@ -54,3 +54,7 @@ The implementation is modularized into four major parts; `main`, `Scene`, `Shape
 
 - Scene 1  
 ![Scene1](https://user-images.githubusercontent.com/36808324/170076865-32a4ff2d-7f61-47c6-9934-1b6ef5adfc0a.png)
+
+## References
+[^1] https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/ray-tracing-rendering-technique-overview
+[^2] https://stackoverflow.com/questions/36288421/c-create-png-bitmap-from-array-of-numbers/58395323
