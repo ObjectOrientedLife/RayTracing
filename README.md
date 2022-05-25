@@ -56,5 +56,5 @@ The implementation is modularized into four major parts; `main`, `Scene`, `Shape
 ![Scene1](https://user-images.githubusercontent.com/36808324/170076865-32a4ff2d-7f61-47c6-9934-1b6ef5adfc0a.png)
 
 ## References
-[^1] https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/ray-tracing-rendering-technique-overview
-[^2] https://stackoverflow.com/questions/36288421/c-create-png-bitmap-from-array-of-numbers/58395323
+[^1]: https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-overview/ray-tracing-rendering-technique-overview
+[^2]: https://stackoverflow.com/questions/36288421/c-create-png-bitmap-from-array-of-numbers/58395323
